@@ -20,6 +20,8 @@ if uploaded_file:
     df2 = pd.read_csv(uploaded_file)
     st.dataframe(df2)
 
+container.write("SQLite table storage image:")
+st.image("SQLite_table.png", caption = None, width=1000, use_column_width=10, clamp=False, channels = "RGB", output_format="auto")
 # copyright information and social media links as footer display using streamlit and pandas
 st.write("Social Media & Support Link:")
 st.write("https://www.theverge.com/")
