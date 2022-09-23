@@ -1,7 +1,6 @@
 # imports
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 import csv
 
 # Streamlit and pandas to write display various headers and information texts
